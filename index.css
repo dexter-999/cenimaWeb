@@ -1,0 +1,621 @@
+body {
+    background: rgb(0, 2, 12);
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.thiis,
+.thissimg {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.sc {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 400px;
+    width: 98%;
+    gap: 30px;
+}
+
+.immg {
+    height: 380px;
+    width: 380px;
+    background-image: url('../LandingPage/media/jachichan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.immg1 {
+    height: 380px;
+    width: 380px;
+    background-image: url('../LandingPage/media/jumanji.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg4 {
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/american.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg5 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/avatar.png');
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg6 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/ninja.png');
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg7 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/shazam.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg8 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/Prototype.png');
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg9 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/hada.png');
+    background-position: center;
+    background-size: 690px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg10 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/chajara.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg11 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/jumanji.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg12 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/glorious.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg13 {
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/jackSparrow.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg14 {
+
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/avatar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg15 {
+    object-fit: contain;
+    height: 390px;
+    width: 380px;
+    background-image: url('../LandingPage/media/american.png');
+    background-position: 20%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    transition: all 0.7s ease;
+}
+
+.immg16 {
+    object-fit: cover;
+    height: 420px;
+    width: 98%;
+    background-image: url('../LandingPage/media/foret.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    padding: 10px;
+}
+
+.immg2 {
+    height: 380px;
+    width: 380px;
+    background-image: url('../LandingPage/media/jackSparrow.png');
+    background-position: end;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.immg17 {
+    height: 380px;
+    width: 380px;
+    background-image: url('../LandingPage/media/jackSparrow.png');
+    background-position: end;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.immg3 {
+    height: 420px;
+    width: 98%;
+    border: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    background-image: url('../LandingPage/media/silsila.png');
+    background: linear-gradient(to bottom, rgb(111, 3, 3), black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+}
+.firstRow{
+    top: 0%;
+}
+
+.hh3 {
+    font-family: algerian;
+    font-size: 50px;
+    color: rgb(147, 4, 33);
+    top: 10%;
+    font-weight: bold;
+}
+
+.hhh3 {
+    font-family: algeriane;
+    font-size: 50px;
+    color: rgba(205, 195, 197, 0.717);
+    top: 10%;
+    font-weight: bold;
+}
+
+img {
+    mix-blend-mode: darken;
+    width: 400px;
+}
+
+/* From Uiverse.io by ernestnash */
+.btne {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: 3px solid rgb(143, 10, 32);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+    width: 150px;
+}
+
+.btne::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(146, 13, 35);
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.btne:hover::before {
+    transform: translateX(0);
+}
+.btne {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: 3px solid rgb(143, 10, 32);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+    width: 150px;
+}
+
+.btne::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(146, 13, 35);
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.btne:hover::before {
+    transform: translateX(0);
+}
+
+
+.immg:hover,
+.immg1:hover,
+.immg2:hover,
+.immg4:hover,
+.immg5:hover,
+.immg6:hover,
+.immg7:hover,
+.immg7:hover,
+.immg8:hover,
+.immg9:hover,
+.immg10:hover,
+.immg11:hover,
+.immg12:hover,
+.immg13:hover,
+.immg14:hover,
+.immg17:hover,
+.immg15:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 20px;
+}
+
+.ii {
+    height: 40px;
+    width: 40px;
+    border: none;
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #bc9f0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    top: 300px;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+@media(max-width: 1170px) {
+    nav {
+        bottom: auto;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: inline;
+        padding: 10px;
+        border-top: 3px solid white;
+        z-index: 1;
+        background-color: rgb(0, 0, 0);
+    }
+    ul{
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+/* From Uiverse.io by mobinkakei */
+.cta {
+    display: flex;
+    padding: 11px 33px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background: #6225e6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+    border: none;
+    cursor: pointer;
+}
+
+.cta:focus {
+    outline: none;
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #fbc638;
+}
+
+.cta .second {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta:hover .second {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+.span {
+    transform: skewX(15deg);
+}
+
+.second {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+}
+
+.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.cta:hover .three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover .one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover .two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+
+    50% {
+        fill: #fbc638;
+    }
+
+    100% {
+        fill: white;
+    }
+}
+
+.thisRow {
+    border-top: 1px solid white;
+    padding: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+i {
+    cursor: pointer;
+}
+.thithi {
+    display: none;
+    transition: all 1s ease;
+}
